@@ -1,0 +1,41 @@
+[
+  {
+    "caption" : "-",
+    "id"      : "gitlink-start-separator"
+  },
+  {
+    "caption"  : "BitLink",
+    "id"       : "gitlink-options",
+    "children" :
+    [
+      {
+        "caption" : "Open",
+        "id"      : "open",
+        "command" : "example",
+        "args"    : {
+          "open" : true
+        }
+      },
+      {
+        "caption" : "Copy",
+        "id"      : "copy",
+        "command" : "example",
+         "args"    : {
+          "open" : false,
+          "copy" : true,
+          "blame": false
+        }
+      },
+      {
+        "caption" : "Blame",
+        "id"      : "blame",
+        "command" : "example",
+        "args"    : {
+          "open" : false,
+          "copy" : true,
+          "blame" : true
+        }
+      }
+    ]
+  }
+]
