@@ -4,7 +4,7 @@ A sublime extention that opens your current file in bitbucket.
 ## Installation
 Download this package and move the files into:
 
-```/Library/Application Support/Sublime Text 3/Packages```
+```~/Library/Application Support/Sublime Text 3/Packages```
 
 Open `bitlink.sublime-settings` and set your remote
 
