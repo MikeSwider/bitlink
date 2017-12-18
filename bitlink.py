@@ -19,8 +19,8 @@ class ExampleCommand(sublime_plugin.TextCommand):
 
 		(row,col) = self.view.rowcol(self.view.sel()[0].begin())
 
-		url = remote +'/src/default'+new_list + '?fileviewer=file-view-default#'+file+'-'+str(row+1)
-		blame = remote +'/annotate/default'+new_list + '?fileviewer=file-view-default#'+file+'-'+str(row+1)
+		url = remote +'/src/default'+new_list + '?at=default&fileviewer=file-view-default#'+file+'-'+str(row+1)
+		blame = remote +'/annotate/default'+new_list + '?at=default&fileviewer=file-view-default#'+file+'-'+str(row+1)
 
 		if (args['open']) :
 			webbrowser.open_new_tab(url)
